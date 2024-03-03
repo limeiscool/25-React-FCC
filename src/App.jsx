@@ -1,14 +1,15 @@
 import "./App.css";
-import Accordian from "./components/accordian";
-import ImageSlider from "./components/image-slider";
-import LoadMore from "./components/load-more/loadMore";
-import RandomColor from "./components/random-color";
-import StarRating from "./components/star-rating";
-import TreeView from "./components/tree-view/tree-view";
-import treeData from "./components/tree-view/tree-data";
-import QRGenerator from "./components/qr-code/QrCode";
-import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher";
-import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+// import Accordian from "./components/accordian";
+// import ImageSlider from "./components/image-slider";
+// import LoadMore from "./components/load-more/loadMore";
+// import RandomColor from "./components/random-color";
+// import StarRating from "./components/star-rating";
+// import TreeView from "./components/tree-view/tree-view";
+// import treeData from "./components/tree-view/tree-data";
+// import QRGenerator from "./components/qr-code/QrCode";
+// import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher";
+// import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import TabSwitcher from "./components/custom-tabs/TabSwitcher";
 
 function App() {
   return (
@@ -42,9 +43,12 @@ function App() {
       {/* <ThemeSwitcher /> */}
 
       {/* scroll indicator component */}
-      <ScrollIndicator
+      {/* <ScrollIndicator
         url={"https://dummyjson.com/products?limit=100&skip=7"}
-      />
+      /> */}
+
+      {/* tab switcher component */}
+      <TabSwitcher />
     </>
   );
 }
