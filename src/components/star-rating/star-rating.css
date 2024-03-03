@@ -1,0 +1,15 @@
+.star-rating {
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+}
+
+.filled {
+  color: orange;
+}
+.empty {
+  color: black;
+}
