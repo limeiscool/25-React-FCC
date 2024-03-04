@@ -9,7 +9,8 @@ import "./App.css";
 // import QRGenerator from "./components/qr-code/QrCode";
 // import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher";
 // import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
-import TabSwitcher from "./components/custom-tabs/TabSwitcher";
+// import TabSwitcher from "./components/custom-tabs/TabSwitcher";
+import ModalPopup from "./components/modal-popup/ModalPopup";
 
 function App() {
   return (
@@ -48,7 +49,10 @@ function App() {
       /> */}
 
       {/* tab switcher component */}
-      <TabSwitcher />
+      {/* <TabSwitcher /> */}
+
+      {/* Modal Popup component */}
+      <ModalPopup />
     </>
   );
 }
