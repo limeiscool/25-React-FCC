@@ -1,4 +1,5 @@
 import "./App.css";
+import AutoComplete from "./components/search-autocomplete/AutoComplete";
 
 // import Accordian from "./components/accordian";
 // import ImageSlider from "./components/image-slider";
@@ -54,6 +55,9 @@ function App() {
 
       {/* Modal Popup component */}
       {/* <ModalPopup /> */}
+
+      {/* search autocomplete component */}
+      <AutoComplete />
     </>
   );
 }
