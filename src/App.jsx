@@ -1,4 +1,5 @@
 import "./App.css";
+import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 // import Accordian from "./components/accordian";
 // import ImageSlider from "./components/image-slider";
 // import LoadMore from "./components/load-more/loadMore";
@@ -10,7 +11,7 @@ import "./App.css";
 // import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher";
 // import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 // import TabSwitcher from "./components/custom-tabs/TabSwitcher";
-import ModalPopup from "./components/modal-popup/ModalPopup";
+// import ModalPopup from "./components/modal-popup/ModalPopup";
 
 function App() {
   return (
@@ -52,7 +53,10 @@ function App() {
       {/* <TabSwitcher /> */}
 
       {/* Modal Popup component */}
-      <ModalPopup />
+      {/* <ModalPopup /> */}
+
+      {/* github profile finder component */}
+      <GithubProfileFinder />
     </>
   );
 }
