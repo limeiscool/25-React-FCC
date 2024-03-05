@@ -1,5 +1,6 @@
 import "./App.css";
-import AutoComplete from "./components/search-autocomplete/AutoComplete";
+// import AutoComplete from "./components/search-autocomplete/AutoComplete";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 // import Accordian from "./components/accordian";
 // import ImageSlider from "./components/image-slider";
@@ -57,7 +58,10 @@ function App() {
       {/* <ModalPopup /> */}
 
       {/* search autocomplete component */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+      {/* Tic Tac Toe Component */}
+      <TicTacToe />
     </>
   );
 }
