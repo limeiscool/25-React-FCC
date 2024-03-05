@@ -1,5 +1,5 @@
 import "./App.css";
-import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
+
 // import Accordian from "./components/accordian";
 // import ImageSlider from "./components/image-slider";
 // import LoadMore from "./components/load-more/loadMore";
@@ -54,9 +54,6 @@ function App() {
 
       {/* Modal Popup component */}
       {/* <ModalPopup /> */}
-
-      {/* github profile finder component */}
-      <GithubProfileFinder />
     </>
   );
 }
