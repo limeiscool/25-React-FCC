@@ -1,8 +1,9 @@
 import "./App.css";
-import FeatureFlags from "./components/feature-flags/FeatureFlags";
+// import FeatureFlags from "./components/feature-flags/FeatureFlags";
 
-import FeatureFlagsGlobalState from "./components/feature-flags/context/Context";
-import UseFetchHookTest from "./components/use-fetch/test";
+// import FeatureFlagsGlobalState from "./components/feature-flags/context/Context";
+// import UseFetchHookTest from "./components/use-fetch/test";
+import UseOutsideClickTest from "./components/use-outside-click/test";
 // import AutoComplete from "./components/search-autocomplete/AutoComplete";
 // import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
@@ -73,7 +74,10 @@ function App() {
       </FeatureFlagsGlobalState> */}
 
       {/* useFetch Custom Hook */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+
+      {/* useOutsideClick Hook */}
+      <UseOutsideClickTest />
     </>
   );
 }
