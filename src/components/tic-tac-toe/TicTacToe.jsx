@@ -67,7 +67,6 @@ function TicTacToe() {
     }
   }, [squares, xIsNext]);
 
-  console.log(squares);
   return (
     <div className="game-container">
       <div className="row">

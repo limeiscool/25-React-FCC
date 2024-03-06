@@ -1,6 +1,10 @@
 import "./App.css";
+import FeatureFlags from "./components/feature-flags/FeatureFlags";
+
+import FeatureFlagsGlobalState from "./components/feature-flags/context/Context";
+import UseFetchHookTest from "./components/use-fetch/test";
 // import AutoComplete from "./components/search-autocomplete/AutoComplete";
-import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+// import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 // import Accordian from "./components/accordian";
 // import ImageSlider from "./components/image-slider";
@@ -61,7 +65,15 @@ function App() {
       {/* <AutoComplete /> */}
 
       {/* Tic Tac Toe Component */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag Implementation */}
+      {/* <FeatureFlagsGlobalState>
+        <FeatureFlags />
+      </FeatureFlagsGlobalState> */}
+
+      {/* useFetch Custom Hook */}
+      <UseFetchHookTest />
     </>
   );
 }
