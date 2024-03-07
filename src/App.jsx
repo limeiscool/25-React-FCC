@@ -4,6 +4,7 @@ import "./App.css";
 // import FeatureFlagsGlobalState from "./components/feature-flags/context/Context";
 // import UseFetchHookTest from "./components/use-fetch/test";
 import UseOutsideClickTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 // import AutoComplete from "./components/search-autocomplete/AutoComplete";
 // import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
@@ -77,7 +78,10 @@ function App() {
       {/* <UseFetchHookTest /> */}
 
       {/* useOutsideClick Hook */}
-      <UseOutsideClickTest />
+      {/* <UseOutsideClickTest /> */}
+
+      {/* Window resizee component */}
+      <UseWindowResizeTest />
     </>
   );
 }
